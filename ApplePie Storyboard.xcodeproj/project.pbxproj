@@ -13,6 +13,7 @@
 		1251217A25657E710070A313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1251217825657E710070A313 /* Main.storyboard */; };
 		1251217C25657E750070A313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1251217B25657E750070A313 /* Assets.xcassets */; };
 		1251217F25657E750070A313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1251217D25657E750070A313 /* LaunchScreen.storyboard */; };
+		12877AF5256ED1F300BB8411 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12877AF4256ED1F300BB8411 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1251217B25657E750070A313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1251217E25657E750070A313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1251218025657E750070A313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12877AF4256ED1F300BB8411 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				1251217225657E710070A313 /* AppDelegate.swift */,
+				1251217B25657E750070A313 /* Assets.xcassets */,
+				12877AF4256ED1F300BB8411 /* Game.swift */,
+				1251218025657E750070A313 /* Info.plist */,
+				1251217D25657E750070A313 /* LaunchScreen.storyboard */,
+				1251217825657E710070A313 /* Main.storyboard */,
 				1251217425657E710070A313 /* SceneDelegate.swift */,
 				1251217625657E710070A313 /* ViewController.swift */,
-				1251217825657E710070A313 /* Main.storyboard */,
-				1251217B25657E750070A313 /* Assets.xcassets */,
-				1251217D25657E750070A313 /* LaunchScreen.storyboard */,
-				1251218025657E750070A313 /* Info.plist */,
 			);
 			path = "ApplePie Storyboard";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 				1251217725657E710070A313 /* ViewController.swift in Sources */,
 				1251217325657E710070A313 /* AppDelegate.swift in Sources */,
 				1251217525657E710070A313 /* SceneDelegate.swift in Sources */,
+				12877AF5256ED1F300BB8411 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
