@@ -8,4 +8,22 @@
 struct Game {
     var guessWord: String
     var incorrectMovesRemaining: Int
+    fileprivate var chosedLetters: [Character] = []
+    
+    init(guessWord: String, incorrectMovesRemaining: Int) {
+        self.guessWord = guessWord
+        self.incorrectMovesRemaining = incorrectMovesRemaining
+    }
+    
+    mutating func playerChoose(letter: Character) {
+        
+        let lowercasedLetter = Character(letter.lowercased())
+        chosedLetters.append(lowercasedLetter)
+        
+        if !guessWord.lowercased().contains(lowercasedLetter) {
+            incorrectMovesRemaining -= 1
+        }
+        
+        
+    }
 }

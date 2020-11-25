@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     // MARK: - IB Outlets
     @IBOutlet weak var treeImageView: UIImageView!
     @IBOutlet var letterButtons: [UIButton]!
@@ -114,7 +114,8 @@ class ViewController: UIViewController {
     
     func updateUI() {
         let movesRemaining = currentGame.incorrectMovesRemaining
-        let imageName = "Tree\(movesRemaining < 8 ? movesRemaining : incorrectMovesAllowed)"
+        let imageNameNumber = (movesRemaining + 64) % 8
+        let imageName = "Tree\(imageNameNumber)"
         treeImageView.image = UIImage(named: imageName)
         scoreLabel.text = "Выигрыши: \(totalWins)   Проигрыши: \(totalLosts)"
     }
@@ -128,9 +129,13 @@ class ViewController: UIViewController {
     
     // MARK: - IB Actions
     
-
+    
     @IBAction func letterButtonPressed(_ sender: UIButton) {
+        
         sender.isEnabled = false
+        let touchedLetter = sender.title(for: .normal)!
+        currentGame.playerChoose(letter: Character(touchedLetter))
+        updateUI()
     }
     
 }
