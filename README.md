@@ -2,10 +2,10 @@
 
 ApplePie storyboard game fo MDA
 
-![Phone Screen](/ApplePie Storyboard/Screenshots/scr1.png)
+![Phone Screen](https://github.com/texhapb-git/ApplePie-Storyboard/blob/main/ApplePie%20Storyboard/Screenshots/scr1.png?raw=true)
 
-![Phone Screen](/ApplePie Storyboard/Screenshots/scr2.png)
+![Phone Screen](https://github.com/texhapb-git/ApplePie-Storyboard/blob/main/ApplePie%20Storyboard/Screenshots/scr2.png?raw=true)
 
-![Phone Screen](/ApplePie Storyboard/Screenshots/scr3.png)
+![Phone Screen](https://github.com/texhapb-git/ApplePie-Storyboard/blob/main/ApplePie%20Storyboard/Screenshots/scr3.png?raw=true)
 
-![Phone Screen](/ApplePie Storyboard/Screenshots/scr4.png)
+![Phone Screen](https://github.com/texhapb-git/ApplePie-Storyboard/blob/main/ApplePie%20Storyboard/Screenshots/scr4.png?raw=true)
