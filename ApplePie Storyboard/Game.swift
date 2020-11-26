@@ -15,6 +15,24 @@ struct Game {
         self.incorrectMovesRemaining = incorrectMovesRemaining
     }
     
+    var currentWord: String {
+        
+        var wordToShow: String = ""
+        
+        for letter in guessWord {
+            
+            if chosedLetters.contains(Character(letter.lowercased())) || letter == "-" || letter == " " {
+                wordToShow += String(letter)
+            } else {
+                wordToShow += "_"
+            }
+            
+        }
+        
+        return wordToShow
+    }
+    
+    
     mutating func playerChoose(letter: Character) {
         
         let lowercasedLetter = Character(letter.lowercased())
